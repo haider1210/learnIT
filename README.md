@@ -298,4 +298,6 @@ Using Redis and PostgreSQL together combines the strengths of each:
 
 * **Redis** handles bursts of incoming traffic with very low latency by acting as a temporary queue.
 * **PostgreSQL** provides reliable, durable storage for all votes.
+
+* https://www.youtube.com/watch?v=dmGW22W3VOs&list=PPSV
 * The **Worker** decouples the front-end from the database, making the system more scalable and resilient. This pattern is common in production systems where fast ingestion and reliable persistence are both important.
